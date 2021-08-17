@@ -1,29 +1,37 @@
 # Todo List
 
-Uma todo list onde é possível adicionar tarefas, marcar como concluída e removê-las.
+A to-do list where you can add tasks, mark completed, and remove them.
 
 ## Sobre
 
-Projeto desenvolvido com React, onde foram usados conceitos como hooks, contexts, components
-Também desenvolvido com Typescript, para fazer o uso dos types.
+Project developed with React, where concepts such as hooks, contexts, components were used
+Also developed with Typescript, to make use of types and get practice.
 
-## Tecnologias utilizadas
+## Technologies used
 
 - CSS
 - React
 - Typescript
 
-# Pré-requisitos
+# Prerequisites
 
-Certifique-se que você tenha instalado: [Node.js](https://nodejs.org/en/) e [Git](https://git-scm.com). Também aconselho ter um bom editor de códigos.
+Make sure you have installed: [Node.js](https://nodejs.org/en/) e [Git](https://git-scm.com).
 
-## Como rodar?
+## How to run?
 
-`# Clone este repositório`
-` $ git clone https://github.com/gustavo-gava/todo`
-`# Instale as dependências`
-`$ yarn`
-`# Execute a aplicação`
-` $ yarn start`
+```
+# Clone this repository
+$ git clone https://github.com/gustavo-gava/todo
 
-Veja meu [linkedin](https://www.linkedin.com/in/gustavo-gava)
+
+# Install the dependencies
+$ yarn
+
+
+# Run this code
+$ yarn start
+```
+It will be available on: http://localhost:3000
+
+
+See my [linkedin](https://www.linkedin.com/in/gustavo-gava)
