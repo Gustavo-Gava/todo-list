@@ -1,0 +1,39 @@
+.container-task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+
+  background-color: rgb(235, 235, 235);
+  border-radius: 4px;
+
+  font-family: "Poppins", sans-serif;
+
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.container-task-name{
+  max-width: 90%;
+  word-wrap: break-word;
+  text-decoration: line-through;
+}
+
+.container-task-name input{
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.container-task i{
+  font-size: 25px;
+  color: #ff1900;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.container-task i:hover{
+  color: #e21700;
+}

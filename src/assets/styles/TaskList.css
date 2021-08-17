@@ -1,0 +1,50 @@
+.main-container {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  min-height: 500px;
+
+  background-color: #fff;
+  border-radius: 8px;
+
+  padding: 35px;
+}
+
+.container-add-task{
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.container-add-task input{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+
+  margin-right: 10px;
+}
+
+.container-add-task button{
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+  padding: 10px 15px;
+
+  background-color: #8C49E6;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.container-add-task button:hover{
+  filter: brightness(0.9)
+}
+
+.container-add-task button i{
+  color: #fff;
+  font-size: 30px;
+}
