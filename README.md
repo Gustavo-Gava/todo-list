@@ -2,7 +2,7 @@
 
 A to-do list where you can add tasks, mark completed, and remove them.
 
-## Sobre
+## About
 
 Project developed with React, where concepts such as hooks, contexts, components were used
 Also developed with Typescript, to make use of types and get practice.
