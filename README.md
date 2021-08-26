@@ -2,6 +2,8 @@
 
 A to-do list where you can add tasks, mark completed, and remove them.
 
+## Available [here](https://github.io/todo-list)
+
 ## About
 
 Project developed with React, where concepts such as hooks, contexts, components were used
@@ -31,7 +33,7 @@ $ yarn
 # Run this code
 $ yarn start
 ```
-It will be available on: http://localhost:3000
 
+It will be available on: http://localhost:3000
 
 See my [linkedin](https://www.linkedin.com/in/gustavo-gava)
