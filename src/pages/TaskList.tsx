@@ -1,28 +1,28 @@
-import React, { useState, createContext } from "react";
-import { Tasks } from "../components/Tasks";
-import "../assets/styles/TaskList.css";
+import React, { useState, createContext } from "react"
+import { Tasks } from "../components/Tasks"
+import "../assets/styles/TaskList.css"
 
 type TasksContextProps = {
   tasks: {
-    title: string;
-    completed: boolean;
-    id: number;
-  }[];
+    title: string
+    completed: boolean
+    id: number
+  }[]
   setTasks: React.Dispatch<
     React.SetStateAction<
       {
-        title: string;
-        completed: boolean;
-        id: number;
+        title: string
+        completed: boolean
+        id: number
       }[]
     >
-  >;
-};
+  >
+}
 
-export const TasksContext = createContext({} as TasksContextProps);
+export const TasksContext = createContext({} as TasksContextProps)
 
 export function TaskList() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState("")
   const [tasks, setTasks] = useState([
     {
       title: "Study React",
@@ -34,11 +34,16 @@ export function TaskList() {
       completed: false,
       id: Math.random(),
     },
-  ]);
+  ])
 
   function handleTaskClick() {
-    setTasks([...tasks, { title: input, completed: false, id: Math.random() }]);
-    setInput("");
+    if (input.trim() == "") {
+      alert("Please Enter a Task!")
+      return
+    }
+
+    setTasks([...tasks, { title: input, completed: false, id: Math.random() }])
+    setInput("")
   }
 
   return (
@@ -61,5 +66,5 @@ export function TaskList() {
         </div>
       </div>
     </TasksContext.Provider>
-  );
+  )
 }
