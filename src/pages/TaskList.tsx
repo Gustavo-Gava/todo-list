@@ -25,12 +25,7 @@ export function TaskList() {
   const [input, setInput] = useState("")
   const [tasks, setTasks] = useState([
     {
-      title: "Study React",
-      completed: false,
-      id: Math.random(),
-    },
-    {
-      title: "Read",
+      title: "Task",
       completed: false,
       id: Math.random(),
     },
@@ -55,6 +50,7 @@ export function TaskList() {
             <input
               type="text"
               placeholder="Add your new todo"
+              maxLength={50}
               onChange={(e) => setInput(e.target.value)}
               value={input}
             />

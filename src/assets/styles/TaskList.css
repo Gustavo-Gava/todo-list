@@ -10,6 +10,13 @@
   padding: 35px;
 }
 
+@media (max-width: 500px) {
+  .main-container {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
 .container-add-task{
   display: flex;
   align-items: center;
