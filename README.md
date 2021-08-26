@@ -2,7 +2,7 @@
 
 A to-do list where you can add tasks, mark completed, and remove them.
 
-## Available [here](https://github.io/todo-list)
+## Available [here](https://gustavo-gava.github.io/todo-list)
 
 ## About
 
